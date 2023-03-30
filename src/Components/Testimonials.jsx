@@ -19,7 +19,7 @@ const Testimonials = ({reviews}) => {
     }
   }
   function surpriseHandler(){
-    let randomIndex = Math.random(Math.random() * reviews.length);
+    let randomIndex = Math.floor(Math.random() * reviews.length);
     setIndex(randomIndex);
   }
   return (
